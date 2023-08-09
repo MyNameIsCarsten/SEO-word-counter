@@ -1,6 +1,6 @@
 # SEO-word-counter
 Simple python script that lists the percentages of each word within a text of a given website. General words can be excluded.
-After fine tuning [fine tuning](## Fine tune), this script can be used to gather keyword ideas for writing search engine optimized texts.
+After fine tuning [fine tuning](#Fine tune), this script can be used to gather keyword ideas for writing search engine optimized texts.
 
 # Requirements
 Install the required packages by running the following command in your terminal: pip install -r .\requirements.txt
