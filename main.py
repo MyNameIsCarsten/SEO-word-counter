@@ -37,6 +37,21 @@ def get_keywords(url):
     # Get rid of ":"
     all_words = [word.replace(":", "") for word in all_words]
 
+    # Get rid of " " "
+    all_words = [word.replace("\"", "") for word in all_words]
+
+    # Get rid of "("
+    all_words = [word.replace("(", "") for word in all_words]
+
+    # Get rid of ")"
+    all_words = [word.replace("(", "") for word in all_words]
+
+    # Get rid of "["
+    all_words = [word.replace("[", "") for word in all_words]
+
+    # Get rid of "]"
+    all_words = [word.replace("]", "") for word in all_words]
+
     # Get rid of words that are listed in our exclude list
     words = [word for word in all_words if word.lower() not in exclude]
 
